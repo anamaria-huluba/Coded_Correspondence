@@ -274,7 +274,6 @@ def color_count(color):
     if color == thread_color:
       color_total += 1
   return colot_total
-  
 
 #20. Test your new function by running color_count('white').
 
