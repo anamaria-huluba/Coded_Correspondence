@@ -1,6 +1,7 @@
 # LEARN INTERMEDIATE PYTHON 3
 # The Nile
-# The Nile fullfilment agency brings everything you could possibly want straight to your door! Use your knowledge of Python functions and how to manipulate arguments to help automate practices for the biggest world-changing company.
+# The Nile fullfilment agency brings everything you could possibly want straight to your door! Use your knowledge of Python functions and how to manipulate arguments to help 
+# automate practices for the biggest world-changing company.
 
 from math import sin, cos, atan2, sqrt
 
@@ -22,14 +23,16 @@ def format_price(price):
   return "${0:.2f}".format(price)
 
 # 1.
-# At The Nile our biggest concern is our consumers, and our biggest cost is delivering their goods to them. We want to develop a program that will help us minimize these costs so we can continue making everyone happy.
+# At The Nile our biggest concern is our consumers, and our biggest cost is delivering their goods to them. We want to develop a program that will help us minimize these costs 
+# so we can continue making everyone happy.
 
 # First we’ll need to calculate these costs using a function that you’re going to write called calculate_shipping_cost().
 
 # Give calculate_shipping_cost three parameters: from_coords, to_coords, and shipping_type.
 
 # 2.
-# Both from_coords and to_coords are tuples, containing first the latitude and then the longitude. Since our get_distance() function looks for all four as separate arguments, we’ll need to separate these variables out.
+# Both from_coords and to_coords are tuples, containing first the latitude and then the longitude. Since our get_distance() function looks for all four as separate arguments, 
+# we’ll need to separate these variables out.
 
 # Inside calculate_shipping_cost unpack those tuples into from_lat, from_long, to_lat, and to_long.
 
@@ -50,7 +53,9 @@ def format_price(price):
 # Finally, return the formatted price, created by calling the provided format_price() on the price itself.
 
 # 7.
-# What about our shoppers who hastily purchase goods without indicating their shipping type? Let’s give our function a default argument for shipping_type. Since they’re in such a hurry let’s make the default argument 'Overnight'. They’ll be happier to get what they ordered earlier, and we’ll be happier because they paid more money for it. It’s a win-win!
+# What about our shoppers who hastily purchase goods without indicating their shipping type? Let’s give our function a default argument for shipping_type. Since they’re in such 
+# a hurry let’s make the default argument 'Overnight'. They’ll be happier to get what they ordered earlier, and we’ll be happier because they paid more money for it. It’s a 
+# win-win!
 
 # Function calculate_shipping_cost() here:
 
@@ -63,9 +68,11 @@ def calculate_shipping_cost(from_coords, to_coords, shipping_type = 'Overnight')
 # Careers At The Nile
 
 # 9.
-# At The Nile, we have a joke. Without our fantastic drivers, who fulfill orders every day, we’d just be sitting with millions of toys, electronics, and clothing in warehouses to ourselves.
+# At The Nile, we have a joke. Without our fantastic drivers, who fulfill orders every day, we’d just be sitting with millions of toys, electronics, and clothing in warehouses 
+# to ourselves.
 
-# Our team is important, and we want to make sure the hardest workers find their home in our careers. In order to do that, we need to figure out who the best person is for each job.
+# Our team is important, and we want to make sure the hardest workers find their home in our careers. In order to do that, we need to figure out who the best person is for each 
+# job.
 
 # Write a function called calculate_driver_cost() with distance as the first parameter, and as many drivers as are available as positional arguments after that, as drivers.
 
@@ -119,7 +126,8 @@ def calculate_driver_cost(distance, *drivers):
 
 # Let’s define a function called calculate_money_made().
 
-# This function will be passed a number of Trip IDs with corresponding trip information as arguments, so let’s just take any keyword arguments passed into it. Store them all as trips!
+# This function will be passed a number of Trip IDs with corresponding trip information as arguments, so let’s just take any keyword arguments passed into it. Store them all 
+# as trips!
 
 # 18.
 # Let’s start a counter at 0. Create a variable called total_money_made that will count up for us.
@@ -137,7 +145,8 @@ def calculate_driver_cost(distance, *drivers):
 # Outside your for loop, return the total!
 
 # 23.
-# Congratulations! You’ve been a real life-saver around these parts. We broke up functions using arbitrary and default parameters! Remember you can test your function by calling test_function(calculate_money_made) afterwards!
+# Congratulations! You’ve been a real life-saver around these parts. We broke up functions using arbitrary and default parameters! Remember you can test your function by 
+# calling test_function(calculate_money_made) afterwards!
 
 # Function calculate_money_made() here:
 
