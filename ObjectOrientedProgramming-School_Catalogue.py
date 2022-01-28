@@ -3,9 +3,11 @@
 
 # School Catalogue Project
 
-# Let’s put your knowledge of classes to the test by creating a digital school catalog for the New York City Department of Education. The Department of Education wants the catalog to hold quick reference material for each school in the city.
+# Let’s put your knowledge of classes to the test by creating a digital school catalog for the New York City Department of Education. The Department of Education wants the 
+# catalog to hold quick reference material for each school in the city.
 
-# We need to create classes for primary and high schools. Because these classes share properties and methods, each will inherit from a parent School class. Our parent and three child classes have the following properties, getters, setters, and methods:
+# We need to create classes for primary and high schools. Because these classes share properties and methods, each will inherit from a parent School class. Our parent and 
+# three child classes have the following properties, getters, setters, and methods:
 
 # School
 # Properties: name (string), level (one of three strings: 'primary', 'middle', or 'high'), and numberOfStudents (integer)
@@ -29,7 +31,8 @@
 
 # Create an empty class named School.
 
-# 2. Inside the School class, create a constructor that accepts three parameters in addition to self. The names of these parameters should match the properties listed in the narrative above.
+# 2. Inside the School class, create a constructor that accepts three parameters in addition to self. The names of these parameters should match the properties listed in the 
+# narrative above.
 
 # 3. Inside the constructor, set the School properties equal to the values passed into the constructor. Remember to use the self keyword when setting these properties.
 
@@ -41,11 +44,13 @@
 
 # A {level} school named {name} with {numberOfStudents} students
 
-# 7. At this point, it’s probably a good idea to test your code if you haven’t already. Try creating a School object, use the getter and setter methods you created, and print that object
+# 7. At this point, it’s probably a good idea to test your code if you haven’t already. Try creating a School object, use the getter and setter methods you created, and print 
+# that object
 
 # Create the PrimarySchool class
 
-# 8. Next, we’ll build a PrimarySchool class that inherits from School. If you feel comfortable building the PrimarySchool class on your own, give it a shot. If not, use the steps below to help you along the way.
+# 8. Next, we’ll build a PrimarySchool class that inherits from School. If you feel comfortable building the PrimarySchool class on your own, give it a shot. If not, use the 
+# steps below to help you along the way.
 
 # Whether you want to follow the steps or not, it’s important to note, the PrimarySchool class only has one additional property, pickupPolicy.
 
@@ -59,9 +64,11 @@
 
 # 11. You’ve used two of the arguments you’ve passed to the PrimarySchool constructor. Now use the third argument to set the value of a new property named self.pickupPolicy.
 
-# 12. Since our PrimarySchool class inherits Schools‘s properties and getters, we only need to create one new getter in the PrimarySchool class. Add this getter to the PrimarySchool class. Each getter should return the value saved to that property.
+# 12. Since our PrimarySchool class inherits Schools‘s properties and getters, we only need to create one new getter in the PrimarySchool class. Add this getter to the 
+# PrimarySchool class. Each getter should return the value saved to that property.
 
-# 13. Finally, we probably want the __repr__() method for a PrimarySchool to display information about the pickupPolicy variable. Override the __repr__() method so when a PrimarySchool is printed, information about the pickup policy is displayed in addition to the other information about the school.
+# 13. Finally, we probably want the __repr__() method for a PrimarySchool to display information about the pickupPolicy variable. Override the __repr__() method so when a 
+# PrimarySchool is printed, information about the pickup policy is displayed in addition to the other information about the school.
 
 # You can call super().__repr__() to avoid repeating some code.
 
@@ -69,14 +76,16 @@
 
 # Create the HighSchool class
 
-# 15. In this task, you will create a HighSchool class that inherits from the School class. In addition to the properties, getters, and methods in School, the HighSchool includes the following:
+# 15. In this task, you will create a HighSchool class that inherits from the School class. In addition to the properties, getters, and methods in School, the HighSchool 
+# includes the following:
 
 # Properties: sportsTeams (list of strings)
 # Getters: A getter for the sportsTeams array. The getter should return the list of the sports teams.
 # Override the __repr__() method to display information about sportsTeams.
 # Take a look at the Hint for step-by-step instructions.
 
-# 16. Once again, let’s test our code to make sure it works correctly. Create a High School object and verify your new constructor, getter method, and __repr__() method work as expected.
+# 16. Once again, let’s test our code to make sure it works correctly. Create a High School object and verify your new constructor, getter method, and __repr__() method work 
+# as expected.
 
 class School():
 
