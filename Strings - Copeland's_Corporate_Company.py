@@ -40,7 +40,7 @@ def password_generator(user_name):
         password += user_name[i-1]
     return password
     
- #For example, if the username is AnaHulu, then the temporary password generated should be uAnaHul. 
+For example, if the username is AnaHulu, then the temporary password generated should be uAnaHul. 
 
 print(password_generator("AnaHulu"))
 
