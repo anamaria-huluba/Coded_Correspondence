@@ -20,11 +20,9 @@ Using a for loop, iterate through the generator object that is retrieved by call
 
 She wants to add a guest with the information: "Jane,35". Use one of the three generator methods we have learned to accomplish this.
 
-3.
-We can now finish yielding the rest of the names on the guestlist file to our generator by adding numerous next() calls on the generator object until a StopIteration exception is reached. This can also be accomplished by using a for loop on the generator object to automatically make the appropriate amount of next() calls.
+3. We can now finish yielding the rest of the names on the guestlist file to our generator by adding numerous next() calls on the generator object until a StopIteration exception is reached. This can also be accomplished by using a for loop on the generator object to automatically make the appropriate amount of next() calls.
 
-4.
-Now that we have all our guests, we want to see which guests are aged 21 and over so that we can inform the bartending vendor.
+4. Now that we have all our guests, we want to see which guests are aged 21 and over so that we can inform the bartending vendor.
 
 Define a generator expression that will use the guests dictionary to retrieve a generator of names of all guests over 21 years of age.
 
@@ -38,12 +36,10 @@ Create 3 separate generator functions, one for each table, that will yield tuple
 
 You may use the following foods for the tables: Chicken, Beef, Fish.
 
-6.
-Finally, we want to assign a table and seat number with meal selection to each guest. Create another generator function that will take in as input our guests dictionary and the connected generator seating/food selection we created in the previous step. This function should yield a tuple of the guest name and the next value from the connected generator.
+6. Finally, we want to assign a table and seat number with meal selection to each guest. Create another generator function that will take in as input our guests dictionary and the connected generator seating/food selection we created in the previous step. This function should yield a tuple of the guest name and the next value from the connected generator.
 
 Finishing Up
 
-7.
-Congratulations, you were able to successfully plan and coordinate your first event!
+7. Congratulations, you were able to successfully plan and coordinate your first event!
 
 Through this project, you were able to reinforce what generators are, how they can be created, manipulated, and connected together to perform complex generator operations.
