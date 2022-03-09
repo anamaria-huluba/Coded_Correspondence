@@ -28,11 +28,11 @@ print(mySchool.getlevel())
 mySchool.setnumberOfStudents(200)
 print(mySchool.getnumberOfStudents())
 
-# Output:
-# A high school name Codecademy with 100 students
-# Codecademy
-# high
-# 200
+Output:
+A high school name Codecademy with 100 students
+Codecademy
+high
+200
 
 class PrimarySchool(School):
   def __init__(self, name, numberOfStudents, pickupPolicy):
@@ -50,9 +50,9 @@ testSchool = PrimarySchool("Codecademy", 300, "Pickup Allowed")
 print(testSchool.getpickupPolicy())
 print(testSchool)
 
-# Outputs:
-# Pickup Allowed
-# A primary school name Codecademy with 300 students The pickup polity is Pickup Allowed
+Outputs:
+Pickup Allowed
+A primary school name Codecademy with 300 students The pickup polity is Pickup Allowed
 
 class HighSchool(School):
   def __init__(self, name, numberOfStudents, sportsTeams):
@@ -70,6 +70,6 @@ otherSchool = HighSchool("Codecademy High", 500, ["Tennis", "Basketball"])
 print(otherSchool.getsportsTeams())
 print(otherSchool)
 
-# Outputs:
-# ['Tennis', 'Basketball']
-# A high school name Codecademy High with 500 students and with ['Tennis', 'Basketball'] Sports Teams
+Outputs:
+['Tennis', 'Basketball']
+A high school name Codecademy High with 500 students and with ['Tennis', 'Basketball'] Sports Teams
