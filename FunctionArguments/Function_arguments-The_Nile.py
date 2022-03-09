@@ -1,6 +1,6 @@
 # LEARN INTERMEDIATE PYTHON 3
 
-# The Nile
+# The_Nile
 
 # The Nile fullfilment agency brings everything you could possibly want straight to your door! Use your knowledge of Python functions and how to manipulate arguments to help automate practices for the biggest world-changing company.
 
@@ -43,23 +43,23 @@ def calculate_money_made(**trips):
     total_money_made  += trip_revenue
   return total_money_made
 
-# Test the function by calling 
+# Test the function by calling:
 test_function(calculate_money_made)
 
-# Outputs:
-# OK! calculate_shipping_cost() passes tests
-# OK! calculate_driver_cost() passes tests
-# OK! calculate_money_made() passes tests
+Outputs:
+OK! calculate_shipping_cost() passes tests
+OK! calculate_driver_cost() passes tests
+OK! calculate_money_made() passes tests
 
-# FUNCTION ARGUMENTS
-# Review
-# I learned all about how functions can accept different arguments and different styles in which we can pass those arguments in. 
+FUNCTION ARGUMENTS
+Review
+I learned all about how functions can accept different arguments and different styles in which we can pass those arguments in. 
 
-#I learned:
-# How to pack positional arguments in a function with *args.
-# How to work with *args using iteration and other positional arguments.
-# How to pack keyword arguments in a function with **kwargs.
-# How to work with **kwargs using iteration and other keyword arguments.
-# How to combine all different types of arguments to gain the most flexibility in our function declarations.
-# How to use an unpacking operator (* or **) to unpack arguments in a function call.
+I learned:
+How to pack positional arguments in a function with *args.
+How to work with *args using iteration and other positional arguments.
+How to pack keyword arguments in a function with **kwargs.
+How to work with **kwargs using iteration and other keyword arguments.
+How to combine all different types of arguments to gain the most flexibility in our function declarations.
+How to use an unpacking operator (* or **) to unpack arguments in a function call.
 # How to use an unpacking operator (* or **) on iterables.
