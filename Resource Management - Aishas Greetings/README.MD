@@ -12,19 +12,13 @@ Click through the files on your right and see what’s in them! If you get stuck
 
 Let’s start printing!
 
-Tasks
-13/13 Complete
-Mark the tasks as complete by checking them off
 Setting Up Custom Greeting Cards
 1.
 Aisha, the owner of Aisha’s Greetings, wants to create a program that will automatically generate pre-filled orders, using her custom greeting messages. Use your knowledge of context managers to accomplish this goal!
 
 First, import the contextlib modules @contextmanager decorator, and create a decorated function named generic that takes in card type, sender’s name, and recipient arguments.
 
-
-Stuck? Get a hint
-2.
-The generic() function will serve the purpose of opening a specific generic card type (Thank you card or Birthday card) so that it can be used as the base template for a more customized card.
+2. The generic() function will serve the purpose of opening a specific generic card type (Thank you card or Birthday card) so that it can be used as the base template for a more customized card.
 
 Inside the function create the following:
 
@@ -34,66 +28,39 @@ A variable to store a call of the open() built-in function that creates (and ope
 
 Use the sender name parameter from the function definition. Open the file in write mode since we will need to write a new card to the file.
 
-
-Stuck? Get a hint
-3.
-Now, you need to make sure the context manager correctly creates a customized card from the generic template. Inside the generic() context manager use the try clause to yield a file so that it creates the following template custom card:
+3. Now, you need to make sure the context manager correctly creates a customized card from the generic template. Inside the generic() context manager use the try clause to yield a file so that it creates the following template custom card:
 
 Dear < receiver >
 < text from the generic template card > 
 Sincerely, < sender >
 Make sure to use '\n' to create line breaks!
 
+4. Finally, make sure to close both files after usage!
 
-Stuck? Get a hint
-4.
-Finally, make sure to close both files after usage!
-
-
-Stuck? Get a hint
-5.
-It’s time for a test run! Aisha’s Greetings just got a customer ‘Mwenda’ who requested an order for a generic Thank you card for her friend ‘Amanda’.
+5. It’s time for a test run! Aisha’s Greetings just got a customer ‘Mwenda’ who requested an order for a generic Thank you card for her friend ‘Amanda’.
 
 Use a with statement to generate this order. Have the with statement confirm the card is created by printing 'Card Generated!'.
 
+6. We want to verify whether or not the correct order was printed in the file. Use a with statement to open and read the file you just created in the last step.
 
-Stuck? Get a hint
-6.
-We want to verify whether or not the correct order was printed in the file. Use a with statement to open and read the file you just created in the last step.
-
-
-Stuck? Get a hint
 Setting Up Personalized Greeting Cards
-7.
-Aisha’s Greetings also wants to print personalized cards! This means that customers can tell Aisha’s Greetings the words they want in their card and we can print them.
+7. Aisha’s Greetings also wants to print personalized cards! This means that customers can tell Aisha’s Greetings the words they want in their card and we can print them.
 
 For personalized cards, let’s create a class-based context manager. First, create a class called personalized.
 
-
-Stuck? Get a hint
-8.
-Next, write a __init__ method that takes the sender’s and receiver’s names and saves them as attributes.
+8. Next, write a __init__ method that takes the sender’s and receiver’s names and saves them as attributes.
 
 Add one more attribute that stores a newly opened (or created) file in write mode with the format < sender_name >_personalized.txt. This is the file we will be working on!
 
-
-Stuck? Get a hint
-9.
-Now, let’s set up what should happen when any new files are created and the context is started.
+9. Now, let’s set up what should happen when any new files are created and the context is started.
 
 Make an __enter__ method that writes the receiver’s name to the opened file and returns that file. The format we write to the file should look like this: Dear < receiver>
 
-
-Stuck? Get a hint
-10.
-Lastly, let’s set up the final pieces of the customized card.
+10. Lastly, let’s set up the final pieces of the customized card.
 
 Create an __exit__ method that writes "Sincerely" followed by the sender’s name on the open file and then closes the file!
 
-
-Stuck? Get a hint
-11.
-Time to give our custom card generator a test run!
+11. Time to give our custom card generator a test run!
 
 Aisha’s shop just got a customer 'John' who requested an order for a personalized card for his close friend 'Michael'.
 
@@ -101,11 +68,8 @@ John wants the body of the letter to say "I am so proud of you! Being your frien
 
 Use the context manager with a with statement to generate this order.
 
-
-Stuck? Get a hint
 Aisha’s Greetings: Picking up speed!
-12.
-Aisha’s Greetings just got two orders from a customer named 'Josiah'.
+12. Aisha’s Greetings just got two orders from a customer named 'Josiah'.
 
 He wants to get a generic birthday card for a colleague named 'Remy' and a personalized card for his sister 'Esther' that says:
 
@@ -113,9 +77,6 @@ He wants to get a generic birthday card for a colleague named 'Remy' and a perso
 
 Create a nested with statement that generates these orders in one call.
 
-
-Stuck? Get a hint
-13.
-Congrats! You were able to help Aisha’s Greetings create a system that generates cards quicker and smoother using the knowledge you gained about context managers!
+13. Congrats! You were able to help Aisha’s Greetings create a system that generates cards quicker and smoother using the knowledge you gained about context managers!
 
 Take some time to check out the great cards you created!
